@@ -1,0 +1,74 @@
+# Compile of testfixture.v was successful.
+# Compile of ATCONV.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of testfixture.v was successful.
+# Compile of ATCONV.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of testfixture.v was successful.
+# Compile of ATCONV.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of testfixture.v was successful.
+# Compile of ATCONV.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.testfixture +notimingchecks
+# vsim -gui work.testfixture "+notimingchecks" 
+# Start time: 08:39:39 on Jun 29,2023
+# Loading work.testfixture
+# Loading work.ATCONV
+# WARNING: No extended dataflow license exists
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+# Layer 0 output is correct !
+# Layer 1 output is correct!
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# Congratulations! Layer 0 data have been generated successfully! The result is PASS!!
+# 
+# Congratulations! Layer 1 data have been generated successfully! The result is PASS!!
+# 
+# terminate at      57350 cycle
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/NCKUCollege/111-2/DIC/HW4/file/testfixture.v(175)
+#    Time: 2867500 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/NCKUCollege/111-2/DIC/HW4/file/testfixture.v line 175
+add wave -position insertpoint sim:/testfixture/u_ATCONV/*
+add wave -position insertpoint sim:/testfixture/u_ATCONV/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# -----------------------------------------------------
+# 
+# START!!! Simulation Start .....
+# 
+# -----------------------------------------------------
+# 
+# Layer 0 output is correct !
+# Layer 1 output is correct!
+#  
+# -----------------------------------------------------
+# 
+# --------------------- S U M M A R Y -----------------
+# 
+# Congratulations! Layer 0 data have been generated successfully! The result is PASS!!
+# 
+# Congratulations! Layer 1 data have been generated successfully! The result is PASS!!
+# 
+# terminate at      57350 cycle
+# -----------------------------------------------------
+# 
+# ** Note: $finish    : D:/NCKUCollege/111-2/DIC/HW4/file/testfixture.v(175)
+#    Time: 2867500 ns  Iteration: 0  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/NCKUCollege/111-2/DIC/HW4/file/testfixture.v line 175
+# End time: 09:36:53 on Jun 29,2023, Elapsed time: 0:57:14
+# Errors: 0, Warnings: 2
