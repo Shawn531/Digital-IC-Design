@@ -1,0 +1,15 @@
+D:/NCKUCollege/111-2/DIC/HW2/file/tb.v {1 {vlog -work work -stats=none D:/NCKUCollege/111-2/DIC/HW2/file/tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testfixture
+
+Top level modules:
+	testfixture
+
+} {} {}} D:/NCKUCollege/111-2/DIC/HW2/file/rails.v {1 {vlog -work work -stats=none D:/NCKUCollege/111-2/DIC/HW2/file/rails.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rails
+
+Top level modules:
+	rails
+
+} {} {}}

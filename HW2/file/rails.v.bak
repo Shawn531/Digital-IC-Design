@@ -1,0 +1,66 @@
+`timescale 1ns/1ns
+
+module fsm1(
+	input wire clk  ,
+	input wire rst  ,
+	input wire data ,
+	output reg flag
+);
+//*************code***********//
+reg [1:0] state,nextstate;
+localparam S0=2'd0;
+localparam S1=2'd1;
+localparam S2=2'd2;
+localparam S3=2'd3;
+
+//????
+always@(*)begin
+	if (!rst) state=S0;
+	else state=nextstate;
+end
+//???
+always@(posedge clk or negedge rst)begin
+		case(state)
+			S0:begin
+				if(data) nextstate=<S1;
+				else nextstate=<S2;	
+			end
+			S1:begin
+				if(data) nextstate=<S2;
+				else nextstate<=S1;
+			end
+			S2:begin
+				if(data) nextstate=<S3;
+				else nextstate=<S2;
+			end
+			S3:begin
+				if(data) nextstate=<S0;
+				else nextstate=<S3;
+			end
+		endcase
+end
+
+//output
+always@(posedge clk)begin
+	if(!rst) flag<=0;
+	else begin
+		case(state)
+			S0:begin
+				flag<=0;
+			end
+			S1:begin
+				flag<=0;
+			end
+			S2:begin
+				flag<=0;
+			end
+			S3:begin
+				if(data==0) flag<=1;
+				else flag<=0;
+			end
+		endcase
+	end
+end
+
+//*************code***********//
+endmodule

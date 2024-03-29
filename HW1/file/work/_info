@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1/modelsim_ase/win32aloem
+vMMS_4num
+Z0 !s110 1681781454
+!i10b 1
+!s100 WI4n@YkDOl5GmEK2BIbXk1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IiG^dMWj=SORXOD0j66hkC1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/NCKUCollege/111-2/DIC/HW1/file
+w1681781448
+8MMS_4num.v
+FMMS_4num.v
+!i122 42
+L0 1 27
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1681781454.000000
+Z6 !s107 MMS_4num.v|D:/NCKUCollege/111-2/DIC/HW1/file/MMS_8num.v|
+Z7 !s90 -reportprogress|300|-work|work|-stats=none|D:/NCKUCollege/111-2/DIC/HW1/file/MMS_8num.v|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+n@m@m@s_4num
+vMMS_8num
+R0
+!i10b 1
+!s100 mZ68@^e4]8Gc1C9jRKe^@3
+R1
+I3m6i:YiUnVmOcj6]9<7Ai3
+R2
+R3
+w1678555894
+8D:/NCKUCollege/111-2/DIC/HW1/file/MMS_8num.v
+FD:/NCKUCollege/111-2/DIC/HW1/file/MMS_8num.v
+!i122 42
+L0 3 29
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@m@m@s_8num
+vMMS_tb
+!s110 1681781455
+!i10b 1
+!s100 NZKCGgdeO;a=dW8J=eJFN3
+R1
+IFooX:42mmVF]jS4kmZh]P2
+R2
+R3
+w1678552314
+8D:/NCKUCollege/111-2/DIC/HW1/file/MMS_tb.v
+FD:/NCKUCollege/111-2/DIC/HW1/file/MMS_tb.v
+!i122 43
+L0 8 180
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/NCKUCollege/111-2/DIC/HW1/file/MMS_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/NCKUCollege/111-2/DIC/HW1/file/MMS_tb.v|
+!i113 1
+R8
+R9
+n@m@m@s_tb
