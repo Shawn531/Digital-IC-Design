@@ -1,0 +1,66 @@
+# Compile of testfixture.v was successful.
+# Compile of demosaic.vo was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of demosaic.v was successful.
+# Compile of testfixture.v was successful.
+# Compile of demosaic.vo was successful.
+# Compile of demosaic.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.testfixture +notimingchecks
+# vsim -gui work.testfixture "+notimingchecks" 
+# Start time: 19:58:57 on Jun 12,2023
+# Loading work.testfixture
+# Loading work.demosaic
+run -all
+# ********************************************************************
+# **                        Simulation Start                        **
+# ********************************************************************
+# ********************************************************************
+# **               Simulation completed successfully!               **
+# ********************************************************************
+# ** Note: $finish    : D:/NCKUCollege/111-2/DIC/HW5/file/testfixture.v(145)
+#    Time: 5243100 ns  Iteration: 1  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/NCKUCollege/111-2/DIC/HW5/file/testfixture.v line 145
+quit -sim
+# End time: 20:00:04 on Jun 12,2023, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 6
+# Compile of testfixture.v was successful with warnings.
+# Compile of demosaic.vo was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.testfixture -L C:/intelFPGA/20.1/modelsim_ase/altera/verilog/altera -L C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cycloneive -sdftyp /u_demosaic=D:/NCKUCollege/111-2/DIC/HW5/file/demosaic_v.sdo
+# vsim -gui work.testfixture -L C:/intelFPGA/20.1/modelsim_ase/altera/verilog/altera -L C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cycloneive -sdftyp "/u_demosaic=D:/NCKUCollege/111-2/DIC/HW5/file/demosaic_v.sdo" 
+# Start time: 20:01:20 on Jun 12,2023
+# Loading work.testfixture
+# Loading work.demosaic
+# Loading work.hard_block
+# Loading C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cycloneive.cycloneive_io_obuf
+# Loading C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cycloneive.cycloneive_io_ibuf
+# Loading C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cycloneive.cycloneive_clkctrl
+# Loading C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cycloneive.cycloneive_mux41
+# Loading C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cycloneive.cycloneive_ena_reg
+# Loading C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cycloneive.cycloneive_lcell_comb
+# Loading C:/intelFPGA/20.1/modelsim_ase/altera/verilog/altera.dffeas
+# Loading instances from D:/NCKUCollege/111-2/DIC/HW5/file/demosaic_v.sdo
+# Loading instances from demosaic_v.sdo
+# Loading C:/intelFPGA/20.1/modelsim_ase/altera/verilog/altera.PRIM_GDFF_LOW
+# Loading timing data from D:/NCKUCollege/111-2/DIC/HW5/file/demosaic_v.sdo
+# Loading timing data from demosaic_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testfixture File: D:/NCKUCollege/111-2/DIC/HW5/file/testfixture.v
+# Compile of demosaic.vo was successful.
+run -all
+# ********************************************************************
+# **                        Simulation Start                        **
+# ********************************************************************
+# ********************************************************************
+# **               Simulation completed successfully!               **
+# ********************************************************************
+# ** Note: $finish    : D:/NCKUCollege/111-2/DIC/HW5/file/testfixture.v(145)
+#    Time: 5243100 ns  Iteration: 1  Instance: /testfixture
+# 1
+# Break in Module testfixture at D:/NCKUCollege/111-2/DIC/HW5/file/testfixture.v line 145
+# End time: 20:02:39 on Jun 12,2023, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 5

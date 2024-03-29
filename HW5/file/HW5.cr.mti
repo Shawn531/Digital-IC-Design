@@ -1,0 +1,23 @@
+D:/NCKUCollege/111-2/DIC/HW5/file/testfixture.v {2 {vlog -work work -stats=none D:/NCKUCollege/111-2/DIC/HW5/file/testfixture.v
+-- Compiling module demosaic
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Warning: (vlog-6) -- Waiting for lock by "user@LAPTOP-B4NORQL0, pid = 24296
+". Lockfile is "D:/NCKUCollege/111-2/DIC/HW5/file/work/_lock".
+-- Compiling module hard_block
+
+Top level modules:
+	demosaic
+-- Compiling module testfixture
+
+Top level modules:
+	testfixture
+
+} {} {}} D:/NCKUCollege/111-2/DIC/HW5/file/demosaic.vo {1 {vlog -work work -stats=none D:/NCKUCollege/111-2/DIC/HW5/file/demosaic.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module demosaic
+-- Compiling module hard_block
+
+Top level modules:
+	demosaic
+
+} {} {}}
